@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "irondag"
+version = "1.0.0"
+description = "A zero-dependency async workflow orchestrator, distributed event bus, and resilient DAG pipeline engine for Python."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+irondag = "irondag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
