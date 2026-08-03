@@ -9,6 +9,20 @@ description = "A zero-dependency async workflow orchestrator, distributed event 
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
+keywords = [
+    "python",
+    "asyncio",
+    "workflow",
+    "dag",
+    "orchestrator",
+    "pipeline",
+    "task-runner",
+    "circuit-breaker",
+    "event-bus",
+    "zero-dependency",
+    "sqlite",
+    "resilience",
+]
 
 [project.scripts]
 irondag = "irondag.cli:main"
